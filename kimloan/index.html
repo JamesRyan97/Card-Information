@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan DƯƠNG</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .cls_avatar {
+            margin-top: 10px;
+            border-radius: 50%;
+            border-width: 2px;
+            border-style: solid;
+            border-color: rgb(192, 231, 255);
+        }
+        
+        @font-face {
+            font-family: "lg_smart_ha_bold";
+            src: url("lg_smart_ha_bold.ttf");
+        }
+        
+        @font-face {
+            font-family: "lg_smart_ha_regular";
+            src: url("lg_smart_ha_regular.ttf");
+        }
+        
+        .tel_form {
+            margin-top: 10px;
+            padding: 10px;
+            border-left-width: 7px;
+            border-left-color: lightslategrey;
+            border-style: solid;
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
+            background-color: rgb(236, 236, 236);
+            text-decoration: none;
+            color: rgb(4, 126, 202);
+        }
+        
+    </style>
+</head>
+
+<body style="background-color: #dbdbdb">
+    <!-- Modal -->
+    <div class="modal fade" id="my_card" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-image: url(../background.webp);">
+                <div class="modal-body">
+                    <div class="main">
+
+                        <center>
+                            <img src="./avatar.jpg" class="cls_avatar" width="100" />
+
+                            <div style="text-align: center; font-size: 22px;">
+                                <span style="font-family: lg_smart_ha_bold, Arial, Helvetica, sans-serif;">
+                                    Kim Loan
+                                </span>
+                                <!-- <span style="font-family: lg_smart_ha_regular, Arial, Helvetica, sans-serif;"> 
+                                        (James)
+                                </span> -->
+                            </div>
+
+                            <!-- <div style="font-family: lg_smart_ha_bold; font-size: 15px; text-align: center; color: rgb(54, 201, 120);">
+                                <u>ANDROID DEVELOPER</u>
+                            </div> -->
+
+                        </center>
+
+                        <div class="tel_form">
+                            <div>
+                                <img src="../ic_telephone.svg" width="24" />
+                                <img src="../ic_zalo.svg" width="24" style="margin-left: 3px; margin-right: 3px;" />
+                                <a href="tel:+84334445659" style="font-size: 16px; font-family: lg_smart_ha_regular, Arial, Helvetica, sans-serif; margin-left: 5px;">
+                                        +84 334 445 659
+                                </a>
+
+                            </div>
+
+                            <div style="margin-top: 10px;">
+                                <img src="../ic_gmail.svg" width="24" />
+                                <a href="mailto:vuongloan0906mwc@gmail.com" style="font-size: 16px; font-family: lg_smart_ha_regular, Arial, Helvetica, sans-serif; margin-left: 5px;">
+                                    vuongloan0906mwc@gmail.com
+                                    </a>
+                            </div>
+                        </div>
+
+                        <center>
+
+                            <div style="margin-top: 10px;">
+                                <img src="../star-solid.svg" width="10" />
+                                <img src="../star-solid.svg" width="14" />
+                                <img src="../star-solid.svg" width="10" />
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 5px; ">
+                                <a href="fb://profile/100033768242889" style="margin: 3px; text-decoration: none; color: rgb(255, 255, 255);">
+                                    <img src="../ic_facebook.svg" width="32" height="32" />
+                                </a>
+
+                                <a href="https://www.messenger.com/t/100033768242889" style="margin: 3px; text-decoration: none; color: rgb(255, 255, 255);">
+                                    <img src="../ic_facebook_messenger.svg" width="32" height="32" />
+                                </a>
+
+                                <!-- <a href="https://join.skype.com/invite/aLZYjPbolMVc" style="margin: 3px; text-decoration: none; color: rgb(255, 255, 255);">
+                                    <img src="ic_skype.svg" width="32" height="32" />
+                                </a> -->
+                            </div>
+
+                        </center>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    $('#my_card').modal({
+        backdrop: 'static',
+        keyboard: false
+    }).modal('show')
+</script>
+
+</html>
