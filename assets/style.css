@@ -54,6 +54,17 @@ body {
     margin-top: 10px;
 }
 
+
+.btn:hover{
+    background-color: #afe4ff65;
+    color: #fff;
+}
+
+.btn:active{
+    background-color: #d8afff65;
+    color: rgb(110, 156, 253);
+}
+
 .btn {
     margin-bottom: 10px;
     margin-top: 10px;
